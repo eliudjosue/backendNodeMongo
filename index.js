@@ -2,7 +2,7 @@
 
 var mongoose = require('mongoose');
 var app = require('./app');
-var port = 3700;
+var port = 5000;
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb+srv://eliud:1234@cluster0.kluto.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
