@@ -3,9 +3,6 @@
 var mongoose = require('mongoose');
 var app = require('./app');
 var port = process.env.PORT || 3000;
-app.listen(port, "0.0.0.0", function() {
-    console.log("Listening on Port 3000");
-    });
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb+srv://eliud:1234@cluster0.kluto.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
